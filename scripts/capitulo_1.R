@@ -55,4 +55,6 @@ score(peaks)
 # resumiendo resultados
 # heatmap
 # son utilez para remarcar diferencias y similitudes entre las muestras
+# la funcion heatmap()
+heatmap(reads)
 
