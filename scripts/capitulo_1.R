@@ -41,3 +41,18 @@ ranges(peaks)
 # extrayendo los puntajes de los peak
 # cada puntaje cuantifica la fuerza de cada peak
 score(peaks)
+
+
+### chip-seq workflow ###
+# obtener las secuencias y localizar su posicion en el genoma
+# identificar peak calls
+# import data to R
+# quality control
+# identify interesting peaks, compare samples
+# interpretation
+
+####
+# resumiendo resultados
+# heatmap
+# son utilez para remarcar diferencias y similitudes entre las muestras
+
