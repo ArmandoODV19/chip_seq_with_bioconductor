@@ -54,10 +54,15 @@ score(peaks)
 ####
 # resumiendo resultados
 # heatmap
-# son utilez para remarcar diferencias y similitudes entre las muestras
+# son utiles para remarcar diferencias y similitudes entre las muestras
 # la funcion heatmap()
-heatmap(reads)
+heatmap(reads) # se coloca objeto con matriz numerica de reads
 
 # otra forma de de comparar muestras es considerar el numero
 # de peaks entre muestras asi como los peaks unicos en cada muestra
+# la paqueteria UpSetR genera plot utiles para esto
 
+install.packages("UpSetR")
+library(UpSetR)
+
+upset(fromList(peak_seats)) # se coloca objeto con peak calls
