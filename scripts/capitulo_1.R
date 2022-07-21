@@ -30,4 +30,5 @@ chrom(peaks)
 ranges(peaks)
 
 # extrayendo los puntajes de los peak
+# cada puntaje cuantifica la fuerza de cada peak
 score(peaks)
