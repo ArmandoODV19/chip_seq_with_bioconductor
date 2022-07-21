@@ -16,3 +16,7 @@ end(reads) # fin de secuencia
 # computing coverage
 coverage(reads)
 
+# las unidades principales en el analisis en un experimento de
+# chip-seq son peak calls que sobresaltan regiones
+# del cromosoma con altas concentraciones de lecturas
+
