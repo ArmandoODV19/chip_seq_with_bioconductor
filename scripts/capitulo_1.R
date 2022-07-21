@@ -23,6 +23,7 @@ end(reads)
 
 # computing coverage
 coverage(reads)
+coverage(reads)
 
 # las unidades principales en el analisis en un experimento de
 # chip-seq son peak calls que sobresaltan regiones
