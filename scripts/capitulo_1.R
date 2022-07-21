@@ -58,3 +58,6 @@ score(peaks)
 # la funcion heatmap()
 heatmap(reads)
 
+# otra forma de de comparar muestras es considerar el numero
+# de peaks entre muestras asi como los peaks unicos en cada muestra
+
