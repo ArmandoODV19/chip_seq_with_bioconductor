@@ -9,9 +9,17 @@ library(GenomicAlignments)
 readGAlignments()
 
 reads <- readGAlignments("archivo")
+
+reads <- readGAlignments("data/chr20.bam.gz")
+
 seqnames(reads) # informacion sobre las lecturas del cromosoma
+seqnames(reads)
+
 start(reads) # inicio de secuencia
+start(reads)
+
 end(reads) # fin de secuencia
+end(reads)
 
 # computing coverage
 coverage(reads)
